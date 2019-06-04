@@ -32,3 +32,21 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 } // endif function_exists( 'understrap_scripts' ).
 
 add_action( 'wp_enqueue_scripts', 'understrap_scripts' );
+
+
+// Add custom js
+function my_JS() {
+
+	wp_deregister_script( 'jquery' );
+
+	wp_register_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', '', 1, true );
+	wp_enqueue_script( 'jquery' );
+
+	wp_register_script( 'magnificpopup', get_template_directory_uri() . '/js/magnificpopup.js', array(), 1, true );
+	wp_enqueue_script( 'magnificpopup' );
+
+	wp_register_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), 1, true );
+	wp_enqueue_script( 'custom-js' );
+}
+
+add_action( 'wp_enqueue_scripts', 'my_JS' );

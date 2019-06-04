@@ -17,8 +17,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 	</header><!-- .entry-header -->
+<?php
+    function alter_attr_wpse_102158($attr) {
+    remove_filter('wp_get_attachment_image_attributes','alter_attr_wpse_102158');
+    $attr['class'] .= 'gallery-item';
+    return $attr;
+    }
+    add_filter('wp_get_attachment_image_attributes','alter_attr_wpse_102158'); ?>
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+    <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
 	<div class="entry-content">
 

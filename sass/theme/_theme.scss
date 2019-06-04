@@ -1,1 +1,372 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body{
+  background-color: #fafafa;
+  #content {
+    background-color: #fff;
+  }
+  color: #323232;
+}
+
+#content.container {
+  border: solid 1px #eee;
+}
+
+.card .card-body {
+  background-color: #fafafa !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  color: #353535;
+}
+
+.fa {
+  color: $default;
+}
+
+.marketing {
+  padding: 40px 30px;
+  background-color: #fff;
+}
+
+
+.carousel-item {
+  height: 450px;
+
+  img {
+    width: 100vw;
+  }
+}
+
+.font-600 {font-weight: 600; }
+.btn {
+  border-radius: 0;
+}
+
+/* Footer  */
+.bg-footer {
+  background-color:  #323232;
+  margin-top: 25px;
+
+  h4, li {
+    color: #fff;
+  }
+  .bg-footer-container {
+    padding: 80px 0;
+  }
+}
+#wrapper-footer{
+  padding: 5px 0;
+  background-color: $primary;
+}
+.site-footer {
+  color: #fff;
+}
+
+/*  NavBar */
+ #logo-nav img.img-fluid{
+  height:60px;
+   width: auto;
+}
+
+/* ===========================
+---- Jumbotron Section -------
+============================*/
+.jumbotron {
+  margin-top: -25px;
+}
+
+.display-4 {
+  color: #fff !important;
+}
+
+/* Post an Ad Btn  */
+.bkGround {
+  background-color: transparent;
+}
+
+#post-ad-btn {
+   position: absolute;
+   text-align: center;
+ }
+
+.add-btn {
+  margin-bottom: 25px;
+}
+
+ /*==========================
+ ----- 3 Card Section -------
+ ==========================*/
+.card {
+  border-radius: 0;
+  border: solid 1px #eee;
+  border-bottom: 2px solid #D8D8D8;
+
+
+  .card-img-top {
+    border-radius: 0;
+  }
+
+  .card-body {
+    background-color: #f9f9f9;
+    .contract {
+      color: #33B5E5;
+    }
+  }
+
+  .card-text {
+    font-size: 1em;
+  }
+
+  .features {
+    display: flex;
+    justify-content: center;
+
+    p {
+      padding: 0 1em;
+    }
+
+    .contract div{
+      color: #33b5e5 !important;
+    }
+  }
+}
+
+/*========================================
+---------- Feature Homes -----------------
+========================================*/
+.heading-for-sale{
+  text-align: center;
+}
+.featurette {
+  border: solid 1px #eee;
+  padding: 40px;
+  margin-top: 15px;
+  -webkit-box-shadow: -1px 3px 3px 0px rgba(230,230,230,1);
+  -moz-box-shadow: -1px 3px 3px 0px rgba(230,230,230,1);
+  box-shadow: -1px 3px 3px 0px rgba(230,230,230,1);
+
+  .features {
+    display: flex;
+    justify-content: center;
+    p {
+      padding: 0 3em;
+    }
+    .fa{
+      font-size: 1.2em;
+    }
+  }
+
+}
+
+
+
+/*
+ ====================================
+ -------- Right-Sidebar -------------
+ ==================================*/
+#right-sidebar {
+  background-color: #fff !important;
+  padding:  30px;
+  border: solid 1px #eee;
+
+
+  a {
+    color: $pink !important;
+    padding: 5px 18px;
+
+
+  }
+     ul {
+      list-style-type: none ;
+       padding: 0;
+
+    }
+li {
+  margin-top: 13px;
+}
+  .btn {
+    background-color: $default !important;
+    border-color: $info !important;
+    border-radius: 0;
+  }
+  .form-control {
+    border-radius: 0;
+  }
+
+  }
+
+/*====================================
+ ------- Listing Success Page --------
+ ===================================*/
+.post-370, .post-220, .post-309 {
+  padding: 40px;
+}
+
+/*====================================
+ --------- Login Page ---------------
+ ===================================*/
+ .post-220 {
+  padding: 40px;
+
+   #wp-submit{
+     background-color: $info !important;
+     color: #fff !important;
+     border: solid 1px $info !important;
+     border-radius: 0 !important;
+     padding: 3px 12px;
+   }
+}
+
+/*==============================
+------- Single Template ----------
+============================= */
+time.entry-date {
+  color: $default;
+}
+
+ time.updated {
+  display: none;
+}
+
+ .nav-previous a, .nav-next a {
+   color: $default;
+ }
+.cat-links a {
+ color: $pink;
+}
+
+/*==========================================
+--- Single-Property_For_Sale Template ----
+==========================================*/
+.property_for_sale-template-default {
+  p {
+    font-family: "Open Sans" !important;
+    padding: 0 1em 0 0;
+    font-weight: 300;
+  }
+  .entry-title {
+    font-size: 1.7em;
+  }
+
+  h2, h4 {
+    font-size: 1.2em;
+
+  }
+
+.entry-meta {
+  display: none;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+  .price{
+   padding-right: 70px;
+  }
+
+.hr {
+  margin-right: 37px;
+}
+
+  .fa-envelope, .fa-angle-down {
+    color: #fff;
+    padding: 0 10px;
+  }
+
+  #enquiry-btn {
+    border: solid 1px #eee;
+  }
+
+  #address {
+    font-size: 16px;
+  }
+
+  #features {
+    color: $default;
+  }
+
+  .company {
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: -8px;
+  }
+
+  h5, .card-text {
+    font-size: 14px;
+  }
+
+  .card-text {
+    margin: 0;
+  }
+
+  #post-ad-btn {
+    display: none;
+  }
+
+  .features-2-column {
+    margin-top: 30px;
+  }
+
+  #property-id {
+    margin-top: 39px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  //.card-single {
+  //  width: 88%;
+  //  padding: 0;
+  //}
+   .price {
+     font-size: 14px;
+    font-weight: 400;
+  }
+
+}
+
+
+/*==============================================
+------ Archive-Property_For_Sale Template ------
+==============================================*/
+.features {
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+  margin-right: 20px;
+
+  p {
+    padding: 0 1em;
+  }
+}
+.list_card {
+  border: solid 1px #eee;
+  border-bottom: solid 2px #eee;
+  margin: 8px 0;
+  padding: 15px 0 0 0;
+  background-color: #fafafa;
+}
+
+
+
+
+
+
+/*=====================================
+--------- Input Field widths ----------
+=====================================*/
+.wpcf7-text, .wpcf7-textarea {
+  width: 100%;
+  border: 1px solid #eee !important;
+  border-radius: 0 !important;
+}
+.wpcf7-form {
+  padding-left: 15px;
+  background-color: #fafafa;
+}
+form p {
+  font-size: 12px;
+}

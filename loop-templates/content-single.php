@@ -23,9 +23,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div><!-- .entry-meta -->
 
 	</header><!-- .entry-header -->
-
+<div class="img-fluid">
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-
+</div>
 	<div class="entry-content">
 
 		<?php the_content(); ?>

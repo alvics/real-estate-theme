@@ -1,0 +1,86 @@
+/* ========================================
+ -------- Submit Listings Form ------------
+ ========================================*/
+.page-template-template-Submit-Listing {
+.btn-secondary {
+    display: none;
+}
+}
+
+.form-submit-title {
+    font-size: 2.1em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.ad-details-heading {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#post-273 {
+    background-color: #fff;
+    padding: 30px;
+.entry-title {
+    display: none;
+}
+.widget-title {
+    font-size: 1.5em !important;
+}
+
+}
+.wpuf-form-add {
+    padding: 20px 20px;
+.wpuf-label {
+    font-size:1em;
+    color: #232323;
+    font-family: 'Open Sans', sans-serif;
+}
+.textfield {
+    border: none;
+    background-color: #f8f8f8;
+    padding: 8px 15px;
+    width: 100%;
+}
+.wpuf-fields{
+    border: solid 1px #eee;
+    background-color: #f8f8f8;
+    padding: 8px 15px;
+}
+
+.wpuf_category_278, .wpuf_for_sale_by_278,
+.wpuf_number_of_bedrooms_278, .wpuf_number_of_bathrooms_278,
+.wpuf_parking_278
+{
+    border: solid 1px #eee;
+}
+
+#wpuf-insert-image-container, #mceu_9-button {
+    display: none;
+}
+
+ul.wpuf-form li .wpuf-label .required {
+    color: $pink !important;
+}
+
+.wpuf-submit-button {
+    background-color: $default !important;
+    color: #fff !important;
+    border: solid 1px $default;
+    padding: 8px 15px;
+&:hover {
+     background-color: $info !important;
+ }
+}
+.button {
+    background-color: $info !important;
+    color: #fff !important;
+    border: solid 1px $info !important;
+    border-radius: 0 !important;
+}
+
+}
+@media (max-width:415px) {
+    .wpuf-form-add {
+        margin-left: -30px;
+    }
+}

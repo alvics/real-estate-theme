@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
 		<?php if ( 'container' == $container ) : ?>
-			<div class="container">
+			<div id="logo-nav" class="container">
 		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
@@ -46,7 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php else : ?>
 
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+							<a id="logo-nav" class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
 
 						<?php endif; ?>
 
@@ -78,4 +78,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		</nav><!-- .site-navigation -->
 
+
+        <!--Post an Ad Btn -->
+        <div class="container-fluid bkGround">
+            <div class="container add-btn d-flex flex-row-reverse">
+                <a href="http://localhost/Real%20Estate_Theme/?page_id=273" id="post-ad-btn" class="btn btn-secondary">Post an Ad</a>
+            </div>
+        </div>
+
 	</div><!-- #wrapper-navbar end -->
+    
+
+
+

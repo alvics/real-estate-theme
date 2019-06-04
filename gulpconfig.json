@@ -2,6 +2,7 @@
 	"browserSyncOptions": {
 		"proxy": "localhost:8080/",
 		"notify": false
+
 	},
 	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"],
 	"paths": {
@@ -18,3 +19,5 @@
 		"vendor": ""
 	}
 }
+
+

@@ -34,3 +34,16 @@ foreach ( $understrap_includes as $file ) {
 	}
 	require_once $filepath;
 }
+
+
+
+// Custom image sizes true="hard cropped"
+add_image_size( 'small', 200, 200, true );
+add_image_size( 'smallest', 300, 300, true );
+add_image_size( 'medium', 750, 750, true );
+add_image_size( 'largest', 1400, 450, true );
+
+add_image_size( 'property', 800, 600, true );
+
+
+
