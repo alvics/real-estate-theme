@@ -1,6 +1,7 @@
 
 body{
   background-color: #fafafa;
+  padding-top: 80px;
   div#content.container {
     max-width: 1400px !important;
   }
@@ -36,8 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 ------- NavBar ---------
 ======================*/
 .navbar {
-margin-top: 32px;}
-#logo-nav img.img-fluid{
+margin-top: 32px;
+}
+
+#logo-nav img.img-fluid {
   height:60px;
   width: auto;
 }
@@ -48,11 +51,25 @@ margin-top: 32px;}
 .navbar {
   .form-control {
     border-radius: 50px;
-  }.fa-search {
-background-color: transparent;
-margin-left: -50px;}
+    cursor: pointer;
+  }
+}
+
+i.fa.fa-search {
+  background-color: transparent;
+  margin-left: -60px;
+  padding-right: 10px;
+  color: #777;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+button#searchsubmit.submit.btn {
+  height:38px;
+}
+
 /*======================
---- Carousel Slider ---
+------- Slider ---------
 ======================*/
 .carousel-item {
   height: 450px;
@@ -415,7 +432,5 @@ form p {
 
 
 
-fdhfj
-sdsj
-}
+
 

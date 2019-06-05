@@ -1,0 +1,107 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 781px
+*/
+
+@media (min-width: 768px) and (max-width: 781px) {
+  /*======================
+------- NavBar ---------
+======================*/
+  .navbar {
+    margin-top: 46px;
+  }
+
+
+}
+
+/*=======================================
+---- Mobile to Ipad Pro (12.9 inch) ----
+=======================================*/
+
+@media (min-width: 481px) and (max-width: 991px) {
+
+  ul#main-menu {
+    padding: 15px 0 15px 15px;
+  }
+  #menu-item-484 {
+    background-color: #a6c;
+    margin-right: 55px;
+    width: 20%;
+    padding: 0 0 0 35px;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 1400px
+*/
+
+@media (min-width: 481px) and (max-width: 3200px) {
+
+  img#mobile-img  {
+    display: none !important;
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    margin-top: -3px;
+  }
+  a.navbar-brand.custom-logo-link {
+    display: none;
+  }
+
+  img#mobile-img {
+    height: 50px;
+    padding: 3px;
+  }
+  input#s.field.form-control.mr-sm-2 {
+    width:75%;
+  }
+  form#searchform.form-inline {
+    position: static;
+  }
+  button.navbar-toggler {
+    font-size: 13px;
+  }
+  ul#main-menu {
+    padding: 15px 0 15px 15px;
+  }
+  #menu-item-484 {
+    background-color: #a6c;
+    margin-right: 55px;
+    width: 40%;
+    padding: 0 0 0 33px;
+  }
+}

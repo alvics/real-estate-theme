@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php } else {
 					the_custom_logo();
 				} ?><!-- end custom logo -->
-
+<div class="mobile-logo"><img id="mobile-img" src="http://localhost/Real%20Estate_Theme/wp-content/uploads/2019/05/r-wp.jpg" height="30" width="auto" alt="logo"> </div>
                 <!-- Search Bar-->
                 <form class="form-inline my-2 my-lg-0" method="get" id="searchform"
                       action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
@@ -69,10 +69,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <input class="field form-control mr-sm-2" id="s" name="s" type="text"
                                placeholder="<?php esc_attr_e( 'Property &hellip;', 'understrap' ); ?>"
                                value="<?php the_search_query(); ?>" >
-                           <i class="fa fa-search"  name="submit" type="submit"></i>
+                           <i class="fa fa-search"></i>
 
-<!--			             <button class="submit btn btn-outline-success my-2 my-sm-0" id="searchsubmit" name="submit" type="submit"-->
-<!--                                 value="--><?php //esc_attr_e( 'Search', 'understrap' ); ?><!--">Search</button>-->
+			             <button class="submit btn btn-success my-2 my-sm-0" id="searchsubmit" name="submit" type="submit"
+                                 value="<?php esc_attr_e( 'Search', 'understrap' ); ?>">Search</button>
                 </form>
                 <!-- ./Search Bar-->
 
