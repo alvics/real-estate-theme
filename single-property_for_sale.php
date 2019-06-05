@@ -108,6 +108,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!--                    <p><i class="fa fa-crop"> --><?php //the_field( 'land_size' ); ?><!--</i></p>-->
 <!--                </div>-->
                 <hr class="hr">
+                <h4>Property <?php the_field( 'contract' ) ?></h4>
                 <h5 id="address"><?php the_field( 'address_of_property_' ); ?></h5>
                 <div class="features">
                     <p class="price"><?php the_field( 'price' ); ?></p>
