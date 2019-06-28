@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 @import "../theme/theme_variables";
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+=======
+>>>>>>> 5a6f202949b78ef06633e9cd0c8b4cac64411b8d
 
 body{
   background-color: #fafafa;
+  padding-top: 80px;
+  div#content.container {
+    max-width: 1400px !important;
+  }
+
   #content {
     background-color: #fff;
   }
@@ -30,8 +38,44 @@ h1, h2, h3, h4, h5, h6 {
   padding: 40px 30px;
   background-color: #fff;
 }
+/*======================
+------- NavBar ---------
+======================*/
+.navbar {
+margin-top: 32px;
+}
 
+#logo-nav img.img-fluid {
+  height:60px;
+  width: auto;
+}
+.navbar-dark .navbar-brand {
+  margin-left: 1em;
+}
 
+.navbar {
+  .form-control {
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+
+i.fa.fa-search {
+  background-color: transparent;
+  margin-left: -60px;
+  padding-right: 10px;
+  color: #777;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+button#searchsubmit.submit.btn {
+  height:38px;
+}
+
+/*======================
+------- Slider ---------
+======================*/
 .carousel-item {
   height: 450px;
 
@@ -45,7 +89,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 
-/* Footer  */
+/*======================
+------- Footer ---------
+======================*/
 .bg-footer {
   background-color:  #323232;
   margin-top: 25px;
@@ -65,11 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/*  NavBar */
- #logo-nav img.img-fluid{
-  height:60px;
-   width: auto;
-}
+
 
 li#menu-item-484 {
    background-color: $secondary;
@@ -104,22 +146,29 @@ li#menu-item-312 {
 }
 
 /* Post an Ad Btn  */
-.bkGround {
-  background-color: transparent;
+#menu-item-484 {
+  background-color: $secondary;
+  margin-right: 55px;
+  a.nav-link{
+    color: #fff;
+  }
 }
 
-#post-ad-btn {
-   position: absolute;
-   text-align: center;
- }
-
-.add-btn {
-  margin-bottom: 25px;
+#menu-item-312 {
+  margin-right: 55px;
 }
 
- /*==========================
- ----- 3 Card Section -------
- ==========================*/
+button.navbar-toggler {
+  margin-right: 1.5em !important;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+  /*==========================
+  ----- 3 Card Section -------
+  ==========================*/
 .card {
   border-radius: 0;
   border: solid 1px #eee;
@@ -188,21 +237,31 @@ li#menu-item-312 {
  ====================================
  -------- Right-Sidebar -------------
  ==================================*/
+//div#right-sidebar.col-md-4.widget-area {
+//  max-width: 22% !important;
+//}
+
 #right-sidebar {
+
   background-color: #fff !important;
-  padding:  30px;
+  padding:  10px;
   border: solid 1px #eee;
 
+h3.widget-title {
+  font-size: 1em;
+}
 
   a {
+    font-size: 12px;
     color: $pink !important;
-    padding: 5px 18px;
+    padding: 0 8px;
 
 
   }
      ul {
       list-style-type: none ;
        padding: 0;
+       line-height: 0;
 
     }
 li {
@@ -215,6 +274,9 @@ li {
   }
   .form-control {
     border-radius: 0;
+  }
+  .input-group {
+    margin-bottom: 15px;
   }
 
   }
@@ -285,10 +347,11 @@ time.entry-date {
   justify-content: center;
   margin-top: 30px;
   margin-right: 20px;
+  margin-left: -110px;
 }
 
   .price{
-   padding-right: 70px;
+   padding-right: 10px;
   }
 
 .hr {
@@ -392,3 +455,9 @@ time.entry-date {
 form p {
   font-size: 12px;
 }
+
+
+
+
+
+
