@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper" id="archive-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
-
+        <h2>archive.php</h2>
 		<div class="row">
 
 			<!-- Do the left sidebar check -->

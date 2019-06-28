@@ -73,6 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 			<?php if ( 'container' == $container ) : ?>
+                <i class ="fa fa-user"><a href="http://localhost/Real%20Estate_Theme/?page_id=309"></i>
 			</div><!-- .container -->
 			<?php endif; ?>
 
@@ -80,11 +81,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
         <!--Post an Ad Btn -->
-        <div class="container-fluid bkGround">
-            <div class="container add-btn d-flex flex-row-reverse">
-                <a href="http://localhost/Real%20Estate_Theme/?page_id=273" id="post-ad-btn" class="btn btn-secondary">Post an Ad</a>
-            </div>
-        </div>
+<!--        <div class="container-fluid bkGround">-->
+<!--            <div class="container add-btn d-flex flex-row-reverse">-->
+<!--                <a href="http://localhost/Real%20Estate_Theme/?page_id=273" id="post-ad-btn" class="btn btn-secondary">Post an Ad</a>-->
+<!--            </div>-->
+<!--        </div>-->
 
 	</div><!-- #wrapper-navbar end -->
     

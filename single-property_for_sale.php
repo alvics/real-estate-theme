@@ -16,9 +16,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper" id="single-wrapper">
 
     <div class="<?php echo esc_attr( $container ); ?> p-5" id="content" tabindex="-1">
-
+<h1>Single-property_for_sale.php</h1>
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-9">
                 <main class="site-main" id="main">
 
 					<?php while ( have_posts() ) : the_post(); ?>
@@ -30,6 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="row m-4">
                             <div class="col-md-6">
                                 <h4 id="features">Features</h4>
+
                                 <!-- Repeater Field -->
 								<?php
 
@@ -99,14 +100,9 @@ $container = get_theme_mod( 'understrap_container_type' );
             <!-- Right sidebar -->
 			<?php if ( get_field( 'agent_image' ) ): ?>
 
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <h6 id="property-id">Property ID: <?php the_field( 'property_id' ) ?></h6>
-<!--                <div class="features">-->
-<!--                    <p class="price">--><?php //the_field( 'price' ); ?><!--</p>-->
-<!--                    <p><i class="fa fa-hotel"> --><?php //the_field( 'bedrooms' ); ?><!--</i></p>-->
-<!--                    <p><i class="fa fa-bathtub"> --><?php //the_field( 'bathrooms' ); ?><!--</i></p>-->
-<!--                    <p><i class="fa fa-crop"> --><?php //the_field( 'land_size' ); ?><!--</i></p>-->
-<!--                </div>-->
+
                 <hr class="hr">
                 <h5 id="address"><?php the_field( 'address_of_property_' ); ?></h5>
                 <div class="features">
