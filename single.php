@@ -16,7 +16,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper" id="single-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?> p-5" id="content" tabindex="-1">
-<h1>Single.php</h1>
+        <h5>Single.php</h5>
+        <p>Build out post-add template</p>
 		<div class="row">
 
 			<!-- Do the left sidebar check -->

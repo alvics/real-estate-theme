@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 @import "../theme/theme_variables";
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
-=======
->>>>>>> 5a6f202949b78ef06633e9cd0c8b4cac64411b8d
+
+
 
 body{
   background-color: #fafafa;
@@ -41,9 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 /*======================
 ------- NavBar ---------
 ======================*/
-.navbar {
-margin-top: 32px;
-}
+
 
 #logo-nav img.img-fluid {
   height:60px;
@@ -70,7 +68,7 @@ i.fa.fa-search {
 }
 
 button#searchsubmit.submit.btn {
-  height:38px;
+  height: 38px;
 }
 
 /*======================
@@ -244,15 +242,15 @@ button.navbar-toggler {
 #right-sidebar {
 
   background-color: #fff !important;
-  padding:  10px;
+  padding:  30px;
   border: solid 1px #eee;
 
 h3.widget-title {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
   a {
-    font-size: 12px;
+    font-size: 15px;
     color: $pink !important;
     padding: 0 8px;
 
@@ -347,7 +345,7 @@ time.entry-date {
   justify-content: center;
   margin-top: 30px;
   margin-right: 20px;
-  margin-left: -110px;
+  margin-left: -50px;
 }
 
   .price{

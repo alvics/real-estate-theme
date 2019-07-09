@@ -31,7 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
     </header><!-- .entry-header -->
     <div class="row list_card">
-        <div class="col-md-4 list_card_img"><?php echo get_the_post_thumbnail( $post->ID, 'small' ); ?></div>
+        <div class="col-md-4 list_card_img"><?php echo get_the_post_thumbnail( $post->ID, 'smallest' ); ?></div>
         <div class="col-md-8">
                     <div class="entry-content">
 

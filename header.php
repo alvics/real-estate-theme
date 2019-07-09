@@ -96,16 +96,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-<<<<<<< HEAD
+
 			<?php if ( 'container' == $container ) : ?>
-                <i class ="fa fa-user"><a href="http://localhost/Real%20Estate_Theme/?page_id=309"></i>
+
 			</div><!-- .container -->
 			<?php endif; ?>
-=======
+
 				<?php if ( 'container' == $container ) : ?>
             </div><!-- .container -->
 		<?php endif; ?>
->>>>>>> 5a6f202949b78ef06633e9cd0c8b4cac64411b8d
+
 
             <!--Post an Ad Btn -->
             <!--            <div class="form-inline bkGround ml-auto">-->
@@ -116,15 +116,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         </nav><!-- .site-navigation -->
 
-<<<<<<< HEAD
+
         <!--Post an Ad Btn -->
 <!--        <div class="container-fluid bkGround">-->
 <!--            <div class="container add-btn d-flex flex-row-reverse">-->
 <!--                <a href="http://localhost/Real%20Estate_Theme/?page_id=273" id="post-ad-btn" class="btn btn-secondary">Post an Ad</a>-->
 <!--            </div>-->
 <!--        </div>-->
-=======
->>>>>>> 5a6f202949b78ef06633e9cd0c8b4cac64411b8d
+
 
     </div><!-- #wrapper-navbar end -->
     

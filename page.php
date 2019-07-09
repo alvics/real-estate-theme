@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 <div class="wrapper" id="page-wrapper">
-
+    <div class="text-center pb-5"><?php the_title( '<h2>', '</h2>' ); ?></div>
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row">

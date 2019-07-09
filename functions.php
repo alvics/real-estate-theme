@@ -38,6 +38,7 @@ foreach ( $understrap_includes as $file ) {
 
 
 // Custom image sizes true="hard cropped"
+add_image_size( 'thumbnail', 150, 150, true );
 add_image_size( 'small', 200, 200, true );
 add_image_size( 'smallest', 300, 300, true );
 add_image_size( 'medium', 750, 750, true );
